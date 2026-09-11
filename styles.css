@@ -1,0 +1,39 @@
+h1 {
+  color: #ff69b4;
+  text-align: center;
+}
+
+h3 {
+  color: #ff69b4;
+  margin-top: 20px;
+}
+
+nav {
+  margin: 10px;
+  text-align: center;
+}
+
+strong {
+  color: #f769ff;
+}
+
+p {
+  color: #c669ff;
+}
+
+body {
+  background-color: black;
+}
+
+table {
+  border: 10px solid #ff69b4;
+  border-collapse: collapse;
+  margin: 20px;
+}
+
+td {
+  color: #c669ff;
+  border: 5px solid #f769ff;
+  margin: 0px;
+  padding: 20px;
+}
