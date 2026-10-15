@@ -5,6 +5,24 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+@media (max-width: 375px) {
+  body {
+    grid-template-areas:
+      "nav"
+      "header"
+      "main"
+      "footer";
+  }
+
+  p {
+    max-width: 200px;
+  }
+
+  img {
+    max-width: 200px;
+  }
+}
+
 h1 {
   color: var(--primary-color);
   text-align: center;
@@ -39,7 +57,7 @@ body {
   background-color: black;
   display: grid;
   min-height: 100vh;
-  grid-template: auto 100px 1fr 100px / auto 1fr auto;
+  grid-template: auto auto 1fr auto / auto 1fr auto;
   grid-template-areas:
     "nav nav nav"
     "header header header"
@@ -91,6 +109,7 @@ td {
   border: 5px solid var(--secondary-color);
   margin: 0px;
   padding: 20px;
+  min-width: 100px;
   overflow-wrap: anywhere;
 }
 
@@ -112,6 +131,7 @@ header {
 
 footer {
   text-align: center;
+  flex-wrap: wrap;
   margin: 1rem;
   grid-area: footer;
   display: flex;
