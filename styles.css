@@ -17,9 +17,11 @@ h3 {
 }
 
 nav {
-  margin: 1rem;
-  text-align: center;
-  color: var(--thertiary-color);
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  margin: 0;
+  padding: 0;
   grid-area: nav;
 }
 
@@ -37,7 +39,7 @@ body {
   background-color: black;
   display: grid;
   height: 100vh;
-  grid-template: 20px 100px 1fr 100px / auto 1fr auto;
+  grid-template: auto 100px 1fr 100px / auto 1fr auto;
   grid-template-areas:
     "nav nav nav"
     "header header header"
@@ -93,10 +95,10 @@ footer {
   gap: 1rem;
 }
 
-a {
+nav a {
   color: var(--thertiary-color);
   text-decoration: none;
   border: 5px solid var(--secondary-color);
   padding: 4px;
-  text-align: center;
+  margin: 0;
 }
