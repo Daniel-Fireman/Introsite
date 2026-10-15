@@ -70,11 +70,26 @@ table {
   margin: auto;
 }
 
+th {
+  color: #c669ff;
+  font-size: 1.2rem;
+  border: 5px solid var(--secondary-color);
+  margin: 0px;
+  padding: 20px;
+}
+
 td {
   color: #c669ff;
   border: 5px solid var(--secondary-color);
   margin: 0px;
   padding: 20px;
+}
+
+ol {
+  list-style-type: disc;
+  min-width: 250px;
+  text-align: left;
+  margin: 0;
 }
 
 header {
