@@ -38,7 +38,7 @@ p {
 body {
   background-color: black;
   display: grid;
-  height: 100vh;
+  min-height: 100vh;
   grid-template: auto 100px 1fr 100px / auto 1fr auto;
   grid-template-areas:
     "nav nav nav"
@@ -70,6 +70,14 @@ table {
   margin: auto;
 }
 
+.cv-container {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 20px auto;
+}
+
 th {
   color: #c669ff;
   font-size: 1.2rem;
@@ -83,6 +91,7 @@ td {
   border: 5px solid var(--secondary-color);
   margin: 0px;
   padding: 20px;
+  overflow-wrap: anywhere;
 }
 
 ol {
