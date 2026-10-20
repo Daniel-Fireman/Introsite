@@ -2,9 +2,9 @@
   /*--primary-color: #ff69b4;
   --secondary-color: #f769ff;
   --thertiary-color: #c669ff;*/
-  --primary-color: #f05315;
-  --secondary-color: #f02d16;
-  --thertiary-color: #f07a16;
+  --primary-color: #ff7a00;
+  --secondary-color: #ffa64d;
+  --thertiary-color: #cc5500;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
@@ -86,6 +86,8 @@ img {
   max-width: 300px;
   width: 100%;
   height: auto;
+  border: 5px var(--thertiary-color) solid;
+  display: block;
 }
 
 table {
