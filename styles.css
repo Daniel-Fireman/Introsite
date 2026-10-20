@@ -159,8 +159,7 @@ td {
   border: 5px solid var(--secondary-color);
   margin: 0px;
   padding: 20px;
-  min-width: 100px;
-  overflow-wrap: anywhere;
+  min-width: 115px;
 }
 
 ol {
