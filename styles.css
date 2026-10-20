@@ -1,7 +1,10 @@
 :root {
-  --primary-color: #ff69b4;
+  /*--primary-color: #ff69b4;
   --secondary-color: #f769ff;
-  --thertiary-color: #c669ff;
+  --thertiary-color: #c669ff;*/
+  --primary-color: #ff7a00;
+  --secondary-color: #ffa64d;
+  --thertiary-color: #cc5500;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
@@ -49,7 +52,7 @@ strong {
 }
 
 p {
-  color: #c669ff;
+  color: var(--thertiary-color);
   max-width: 500px;
   margin: 0 auto;
 }
@@ -82,6 +85,8 @@ img {
   max-width: 300px;
   width: 100%;
   height: auto;
+  border: 5px var(--thertiary-color) solid;
+  display: block;
 }
 
 table {
@@ -123,7 +128,7 @@ table {
 }
 
 th {
-  color: #c669ff;
+  color: var(--thertiary-color);
   font-size: 1.2rem;
   border: 5px solid var(--secondary-color);
   margin: 0px;
@@ -131,7 +136,7 @@ th {
 }
 
 td {
-  color: #c669ff;
+  color: var(--thertiary-color);
   border: 5px solid var(--secondary-color);
   margin: 0px;
   padding: 20px;
