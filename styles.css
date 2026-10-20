@@ -1,7 +1,10 @@
 :root {
-  --primary-color: #ff69b4;
+  /*--primary-color: #ff69b4;
   --secondary-color: #f769ff;
-  --thertiary-color: #c669ff;
+  --thertiary-color: #c669ff;*/
+  --primary-color: #f05315;
+  --secondary-color: #f02d16;
+  --thertiary-color: #f07a16;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
@@ -38,6 +41,7 @@ h3 {
 nav {
   display: flex;
   justify-content: center;
+  background: var(--thertiary-color);
   gap: 0;
   margin: 0;
   padding: 0;
@@ -49,7 +53,7 @@ strong {
 }
 
 p {
-  color: #c669ff;
+  color: var(--thertiary-color);
   max-width: 500px;
   margin: 0 auto;
 }
@@ -75,7 +79,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 img {
@@ -123,7 +127,7 @@ table {
 }
 
 th {
-  color: #c669ff;
+  color: var(--thertiary-color);
   font-size: 1.2rem;
   border: 5px solid var(--secondary-color);
   margin: 0px;
@@ -131,7 +135,7 @@ th {
 }
 
 td {
-  color: #c669ff;
+  color: var(--thertiary-color);
   border: 5px solid var(--secondary-color);
   margin: 0px;
   padding: 20px;
@@ -166,9 +170,9 @@ footer {
 }
 
 nav a {
-  color: var(--thertiary-color);
+  color: var(--secondary-color);
+  font-size: 1.2rem;
   text-decoration: none;
-  border: 5px solid var(--secondary-color);
-  padding: 4px;
+  padding: 6px;
   margin: 0;
 }
